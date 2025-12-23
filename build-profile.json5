@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BEE227734E162AB11BACD3C608A221CEA2573BE9E00ED6ACA62C9E76F30895F163227C7A47965BA",
+          "profile": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.p12",
+          "storePassword": "0000001B4FF4D7EE2366EA26C2B7DE9404AACD49A61342DD46C9B148A1F50AE67C86AABB7A3DC424F17EDA"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.1(21)",
+        "compatibleSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
