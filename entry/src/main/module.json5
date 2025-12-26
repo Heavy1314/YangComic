@@ -8,6 +8,7 @@
       "phone",
       "tablet"
     ],
+    "routerMap": "$profile:router_map",
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
@@ -46,6 +47,17 @@
           }
         ],
       }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "usedScene": { "when": "always" }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "usedScene": { "when": "always" }
+      },
+
     ]
   }
 }

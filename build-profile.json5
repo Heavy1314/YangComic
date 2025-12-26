@@ -7,11 +7,11 @@
         "material": {
           "certpath": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.cer",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001BEE227734E162AB11BACD3C608A221CEA2573BE9E00ED6ACA62C9E76F30895F163227C7A47965BA",
+          "keyPassword": "0000001B973AD583741A49647F083D5B75CCBA6721E879DA7EC8353E0B276BB09AEF2B0141AD2C01FABF91",
           "profile": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:\\Users\\杨毅\\.ohos\\config\\default_YangComic_18pDCaov9BlmltTrp-qkd_EVelBEUptc4ePilqyeIvY=.p12",
-          "storePassword": "0000001B4FF4D7EE2366EA26C2B7DE9404AACD49A61342DD46C9B148A1F50AE67C86AABB7A3DC424F17EDA"
+          "storePassword": "0000001B6188F9D920FBDD3F9FE43192AF692DD54F890B27549CD0AB3CFAA05869FFDD12538C9C6EE4E38A"
         }
       }
     ],
